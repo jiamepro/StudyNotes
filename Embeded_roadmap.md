@@ -23,5 +23,5 @@
 
 软技能不仅仅靠阅读和看视频，更靠的是跟其他人交流和面对作业挑战，提高软技能没有一招致胜的方法，它依靠我们的个人特质（比如优缺点），下文专注于软件部分的技术路线：
 
-![嵌入式系统技术路线](\Embedded-Engineering-Roadmap.png)
+![嵌入式系统技术路线](Embedded-Engineering-Roadmap.png)
 
