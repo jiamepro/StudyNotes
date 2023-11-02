@@ -1,5 +1,5 @@
 # 嵌入式开发学习路线
-> [参考：嵌入式工程师学习路线-github-m3y54m](www.github.com/m3y54m/Embedded-Engineering-Roadmap)
+> [参考：嵌入式工程师学习路线-github-m3y54m](github.com/m3y54m/Embedded-Engineering-Roadmap)
 ## 引言
 1) 成为嵌入式工程师需要具备：
 * 深入学习的高度积极性和热情
