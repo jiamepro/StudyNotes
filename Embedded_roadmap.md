@@ -30,23 +30,26 @@
 
 
 ### 硬件学习
-1) 电子相关
-* 基础数学和运算
-* 电路原理
-* 电子学基础
+1) 电子相关 
+* 基础数学和运算√ 
+* 电路原理√
+* 电子学基础√
 * 数字电路和逻辑设计
 * 计算机架构
+
 2) 使用仪器
 * 万用表
 * 示波器
 * 函数发生器
 * 网络分析仪
 * 逻辑分析仪
+
 3) 原型机开发技术
 * 面包板
 * 硬件设计基础
 * PCB设计
 * 焊接
+
 4) 接口和协议
 * 基础：UART，I2C，SPI |
 * 高速：| Ethernet，USB | PCIe
@@ -54,6 +57,7 @@
 * 网络：| TCP/IP UDP |
 * 自动驾驶：|CAN|LIN，MOST，FlexRay
 * 工业：|Modbus|MQTT...
+
 5) 存储器
 * NOR/NAND/eMMC/SD
 * EEPROM
@@ -71,10 +75,13 @@
   > 可以用**不透明指针**的设计模式达到**对象**的效果
 * 状态机/UML
 * 内存管理
+
 2) 编程语言
 * C语言|C++，汇编，Python|Rust
+
 3) 版本控制
 * Git | | SVN
+
 4) 编译器
 * GCC & Make| CMake，Bash Scripting | Docker
 
@@ -84,18 +91,38 @@
   Linux 内核，设备驱动 | U-Boot ...
 * 实时操作系统
   RTOS 基础 | FreeRTOS, Zephyr | uC/OS, RT-Thread, QNX
+
 6) 数字信号处理
+
 7) 嵌入式安全性
+
 8) 嵌入式AI
 * AI & ML 基础，TensorFlow Lite，tinyML
+
 9) 软件开发生命循环模式
 
 ### 软硬件
 1) 调试
 * JTAG/SWD，GDB | OpenOCD
+
 2) 微控制器
 * GPIO/ADC/DAC/Timers/PWM/中断/看门狗/时钟管理 | DMA/Bootloader/功耗管理 | GUI设计，功能安全
+
 3) 实时操作系统
+
 4) 数字信号处理
 
 ### 软技能
+1) 沟通技能
+
+2) 解决问题技能和批判性思维
+
+3) 团队合作能力
+
+4) 组织和时间管理能力
+
+5) 责任心
+
+6) 适应性和耐心
+
+7) 接受反馈
