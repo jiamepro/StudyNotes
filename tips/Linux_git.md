@@ -37,6 +37,7 @@
 4) Linux卸载应用
    1) 输入dpkg --list, 找到要卸载的软件
    2) sudo apt-get （--purge） remove 包名（将软件及其配置文件一并删除）
+5) 
 ## VSCode中使用Git
 用SOURCE CONTOROL就可以了
 hhh
