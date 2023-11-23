@@ -1,4 +1,5 @@
 # 学习笔记
+[主页](https://github.com/Xiangjiajia-new/research-study)
 ## 嵌入式学习
 1. [嵌入式学习技术路线](/Embedded_roadmap.md)
 2. [求职资料收集](https://github.com/Xiangjiajia-new/research-study/blob/main/Information.md)
