@@ -41,6 +41,6 @@
 ## VSCode中使用Git
 用SOURCE CONTOROL就可以了
 hhh
-
+ssASasddas
 
 在分支中创建了文件未提交的，文件会悬挂在所有分支上，只有提交之后，文件才会只能在特定分支找到
