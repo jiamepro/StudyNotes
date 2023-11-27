@@ -41,7 +41,7 @@ clean:
   * 安装库flex，bison
 
 ## 运行make后，装载模块出错
-运行make
+**运行make**
 ```
 xiangjiajia@xiangjiajia-Lenovo-XiaoXin-Chao7000-14IKBR:~/code$ make
 make -C /usr/src/linux-headers-6.2.0-37-generic M=/home/xiangjiajia/code modules
@@ -111,7 +111,7 @@ CONFIG_MODULE_SIG_ALL=y
     ```
     2. `openssl req -new -nodes -utf8 -sha512 -days 36500 -batch -x509 -config x509.genkey -outform DER -out signing_key.x509 -keyout signing_key.pem`
     3. `sudo cp signing_key.pem signing_key.x509 /usr/src/linux-headers-6.2.0-37-generic/certs/`
-    4. `/usr/src/linux-headers-6.2.0-37-generic/scripts/sign-file sha512 /usr/src/linux-headers-6.2.0-37-generic/certs/signing_key.pem /usr/src/linux-headers-6.2.0-37-generic/certs/signing_key.x509 hello_module.ko
+    4. `**sudo** /usr/src/linux-headers-6.2.0-37-generic/scripts/sign-file sha512 /usr/src/linux-headers-6.2.0-37-generic/certs/signing_key.pem /usr/src/linux-headers-6.2.0-37-generic/certs/signing_key.x509 hello_module.ko
 `
 5. 出现错误
 ```
@@ -121,5 +121,21 @@ At main.c:298:
 - SSL error:10000080:BIO routines::no such file: ../crypto/bio/bss_file.c:75
 sign-file: hello_module.ko
 ```
-2023年11月26日22:59:22：解决不了
+ hello_module.ko 还没生成
+ 6. make之后又出现错误
+```
+xiangjiajia@xiangjiajia-Lenovo-XiaoXin-Chao7000-14IKBR:~/code$ /usr/src/linux-headers-6.2.0-37-generic/scripts/sign-file sha512 /usr/src/linux-headers-6.2.0-37-generic/certs/signing_key.pem /usr/src/linux-headers-6.2.0-37-generic/certs/signing_key.x509 hello_module.ko
+At main.c:167:
+- SSL error:FFFFFFFF8000000D:system library::Permission denied: ../crypto/bio/bss_file.c:67
+- SSL error:10080002:BIO routines::system lib: ../crypto/bio/bss_file.c:77
+sign-file: /usr/src/linux-headers-6.2.0-37-generic/certs/signing_key.pem
+```
+没有用管理员权限
+7. 启用管理员权限之后，没错
+8. 还是不能安装模块！！！！
+```
+xiangjiajia@xiangjiajia-Lenovo-XiaoXin-Chao7000-14IKBR:~/code$ sudo insmod ./hello_module.ko
+insmod: ERROR: could not insert module ./hello_module.ko: Invalid module format
+```
+> 2023年11月26日22:59:22：解决不了
 ##

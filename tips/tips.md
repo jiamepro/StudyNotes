@@ -1,15 +1,18 @@
 # 一些小技巧
 [返回主页](../../research-study/readme.md)
 ## markdown
-1. [markdown基本使用](https://blog.csdn.net/duandapei/article/details/78572124/?utm_medium=distribute.pc_relevant.none-task-blog-2~default~baidujs_utm_term~default-1--blog-91567551.235^v38^pc_relevant_sort_base1&spm=1001.2101.3001.4242.2&utm_relevant_index=4)
+1. [markdown基本使用](https://blog.csdn.net/duandapei/article/details/78572124)
 
-2. [markdown中调整图片大小和位置的方法](https://blog.csdn.net/m0_66769266/article/details/124039970?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169954342116800222822413%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169954342116800222822413&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-124039970-null-null.142^v96^pc_search_result_base9&utm_term=markdown%20%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B0%8F&spm=1018.2226.3001.4187)
+2. [markdown中调整图片大小和位置的方法](https://blog.csdn.net/m0_66769266/article/details/124039970)
 ## git
-1. [Git Bug记录 —— 拉取或推送，出现分支冲突](https://blog.csdn.net/weixin_45536765/article/details/130611408?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170066743316800192242737%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170066743316800192242737&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-130611408-null-null.142^v96^pc_search_result_base9&utm_term=hint%3A%20You%20have%20divergent%20branches%20and%20need%20to%20specify%20how%20to%20reconcile%20them.&spm=1018.2226.3001.4187)
-2. [vs中git异常](https://blog.csdn.net/qq_22325259/article/details/124244893?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170066743316800192242737%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170066743316800192242737&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~baidu_landing_v2~default-4-124244893-null-null.142^v96^pc_search_result_base9&utm_term=hint%3A%20You%20have%20divergent%20branches%20and%20need%20to%20specify%20how%20to%20reconcile%20them.&spm=1018.2226.3001.4187)
-3. [github上新建文件夹](https://blog.csdn.net/Maiduoudo/article/details/101061643?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170074032616800226595071%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170074032616800226595071&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-101061643-null-null.142^v96^pc_search_result_base9&utm_term=github%E4%B8%8A%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9&spm=1018.2226.3001.4187)
+1. [Git Bug记录 —— 拉取或推送，出现分支冲突](https://blog.csdn.net/weixin_45536765/article/details/130611408)
+2. [vs中git异常](https://blog.csdn.net/qq_22325259/article/details/124244893)
+3. [github上新建文件夹](https://blog.csdn.net/Maiduoudo/article/details/101061643
 
 ## Linux
-1. [Linux环境关闭开机自启动服务](https://blog.csdn.net/qq_37335220/article/details/124121398?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170070106916800188585624%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170070106916800188585624&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-1-124121398-null-null.142^v96^pc_search_result_base9&utm_term=Linux%20%E5%8F%96%E6%B6%88%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8&spm=1018.2226.3001.4187)
+1. [Linux环境关闭开机自启动服务](https://blog.csdn.net/qq_37335220/article/details/124121398)
 ## 其他
-1. [文件命名规范](https://blog.csdn.net/qq_41661800/article/details/115344711?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169961827416800211530442%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169961827416800211530442&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduend~default-2-115344711-null-null.142^v96^pc_search_result_base9&utm_term=%E6%96%87%E4%BB%B6%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83&spm=1018.2226.3001.4187)
+1. [文件命名规范](https://blog.csdn.net/qq_41661800/article/details/115344711)
+
+## vim
+1. [Vim搜索关键词](https://blog.csdn.net/qq_41709234/article/details/123818619)
