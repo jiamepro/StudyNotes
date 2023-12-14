@@ -138,4 +138,7 @@ xiangjiajia@xiangjiajia-Lenovo-XiaoXin-Chao7000-14IKBR:~/code$ sudo insmod ./hel
 insmod: ERROR: could not insert module ./hello_module.ko: Invalid module format
 ```
 > 2023年11月26日22:59:22：解决不了
-##
+## 韦东山的Linux视频有hello word驱动
+* 视频中使用了很多内核函数
+* 要先把驱动注册进内核里？？？
+[hello world驱动](https://www.bilibili.com/video/BV1w4411B7a4)
