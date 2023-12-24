@@ -155,4 +155,4 @@
 * typedef与#define的区别：
   * typedef定义的类型不能做拓展，如在前加unsigned
   * 连续声明几个变量，typedef保证声明变量均为一种类型
-### 第四章 
+### 第四章 连接
