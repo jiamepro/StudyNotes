@@ -1,8 +1,8 @@
-# 学习笔记
-[主页](https://github.com/Xiangjiajia-new/research-study)
+# 专业学习笔记
+
 ## 嵌入式学习
 1. [嵌入式学习技术路线](/Embedded_roadmap.md)
-2. [求职资料收集](https://github.com/Xiangjiajia-new/research-study/blob/main/Information.md)
+
 ### 2.1 基础知识（本地）
 1. [操作系统](basic_knowledges/Operating_system.md)
 
