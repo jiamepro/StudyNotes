@@ -16,6 +16,7 @@
 3. [多终端办公工具](https://blog.csdn.net/qiansg123/article/details/80127587)，一般公司用的多，还是概念
 4. [linux划线翻译](https://blog.csdn.net/weixin_45839124/article/details/106930275)
 5. [linux笔记本合盖子不断网](https://blog.csdn.net/u012621175/article/details/90743581)
+6. [更改文件夹属组和属主](https://blog.csdn.net/weixin_52851967/article/details/122080548)
 
 ## vim
 1. [Vim搜索关键词](https://blog.csdn.net/qq_41709234/article/details/123818619)
