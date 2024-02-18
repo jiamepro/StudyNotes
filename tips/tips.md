@@ -9,6 +9,7 @@
 2. [vs中git异常](https://blog.csdn.net/qq_22325259/article/details/124244893)
 3. [github上新建文件夹](https://blog.csdn.net/Maiduoudo/article/details/101061643)
 4. [git分支操作](https://blog.csdn.net/qq_40430360/article/details/126637005)
+5. [Git怎么实现版本回退](https://blog.csdn.net/weixin_39570751/article/details/130729709)
 
 ## Linux
 1. [Linux环境关闭开机自启动服务](https://blog.csdn.net/qq_37335220/article/details/124121398)
@@ -17,7 +18,10 @@
 4. [linux划线翻译](https://blog.csdn.net/weixin_45839124/article/details/106930275)
 5. [linux笔记本合盖子不断网](https://blog.csdn.net/u012621175/article/details/90743581)
 6. [更改文件夹属组和属主](https://blog.csdn.net/weixin_52851967/article/details/122080548)
-
+7. [使用qemu模拟arm](https://blog.csdn.net/linyt/article/details/42504975/?)
+8. [Linux内核镜像](https://cdn.kernel.org/pub/linux/kernel/v4.x/)
+9. [linux,gcc升级降级](https://blog.csdn.net/huangbo1221/article/details/78693291)
+10. [linux内核编译问题1](https://wenku.csdn.net/answer/67189c5adbb940b3b0535ac7f8199474?)
 ## vim
 1. [Vim搜索关键词](https://blog.csdn.net/qq_41709234/article/details/123818619)
 
@@ -38,7 +42,9 @@
 1. [figure的坐标轴label、title、xticklabel的旋转](https://blog.csdn.net/u012277311/article/details/50469850)
 
 ## vscode 
-1. [vscode 手动安装拓展包]()
+1. [vscode 手动安装拓展包]()、
+2. [vscode 远程连接](https://huaweicloud.csdn.net/63a5679ab878a54545946734.html)
+3. 
 
 ## 其他
 1. [文件命名规范](https://blog.csdn.net/qq_41661800/article/details/115344711)
