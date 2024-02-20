@@ -22,6 +22,7 @@
 8. [Linux内核镜像](https://cdn.kernel.org/pub/linux/kernel/v4.x/)
 9. [linux,gcc升级降级](https://blog.csdn.net/huangbo1221/article/details/78693291)
 10. [linux内核编译问题1](https://wenku.csdn.net/answer/67189c5adbb940b3b0535ac7f8199474?)
+
 ## vim
 1. [Vim搜索关键词](https://blog.csdn.net/qq_41709234/article/details/123818619)
 
