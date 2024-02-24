@@ -10,6 +10,8 @@
 3. [github上新建文件夹](https://blog.csdn.net/Maiduoudo/article/details/101061643)
 4. [git分支操作](https://blog.csdn.net/qq_40430360/article/details/126637005)
 5. [Git怎么实现版本回退](https://blog.csdn.net/weixin_39570751/article/details/130729709)
+6. [改用户名之后git@github.com: Permission denied (publickey).](https://blog.csdn.net/helloasimo/article/details/123778112)
+用户名改了之后，配置一下全局用户名，重新生成isa
 
 ## Linux
 1. [Linux环境关闭开机自启动服务](https://blog.csdn.net/qq_37335220/article/details/124121398)
