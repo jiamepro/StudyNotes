@@ -1,31 +1,31 @@
-# 【Linux驱动开发（二）】详解U-Boot移植：链接、重定位、自我复制和树莓派移植Linux
+# 【Linux驱动开发（二）】编写SD驱动，模仿真实板卡移植linux
 [toc]
 # U-boot启动过程
 * 裸机平台，比如STM32，我们可以将程序用烧录工具，如ST-Link和J-Link等设备，通过SWD和JTAG等传输协议配合Flash中固化的引导程序，将代码烧录到单片机的Flash里的特定位置里，点复位按键，裸机就开始执行代码了
-* 需要安装操作系统的ARM平台，启动后，首先运行固件中板载的引导程序，ARMsoc系统上电时，先通过板载引导程序将SD卡中的BootLoader代码（比如U-boot）复制到CPU芯片内部的SRAM中的特定位置，并跳转该处（移交控制权给U-boot），U-boot执行将操作系统镜像加载进内存里的操作
+* 需要安装操作系统的ARM平台，启动后，首先运行固件中板载的引导程序，ARMsoc系统上电时，先通过板载引导程序将SD卡中的BootLoader代码（比如U-boot）复制到CPU芯片内部的SRAM中的特定位置，并跳转该处（移交控制权给U-boot），再有U-boot执行将操作系统镜像加载进内存里的操作
+* 但是在且qemu环境下，我们是直接将内核镜像装载到了内存里，直接运行的，这不能很好模拟真实情况，所以我们先写一个BootLoader来模仿固化在CPU中的引导代码，这段代码将SD卡中的U-Boot加载到内存里，并授予控制权
+[模仿固件的BootLoader代码](./Bootloader.md)
 
-* 设备上电复位之后，ARM会跳到中断向量表执行复位程序，并执行各种初始化操作，之后程序会跳到crt0.S中的_main汇编程序执行，其中一个操作就是调用relocate_code，进行U-Boot自我复制再跳到内存中执行，这也是最关键的部分？？**为什么要重定位？**
-* u-boot在启动之后会在_main函数中将自己重定位到靠近DDR内存尾部的地方，避免和linux内核代码冲突？？
-## U-boot的自我复制和重定位
-* 统一编址方式？CPU自动复制（固化代码）？用这种编址方式我们要怎么复制？？那么举一反三，CPU里固化的那段代码是怎么复制的呢？？
-* U-boot启动会依次执行三个汇编程序：start.S，crt0.S， relocate.S
-* U-boot 进行复制的核心代码在arch/arm/lib/relocate.S中，汇编代码如下：
+# Vexpress-A9开发板硬件介绍
+* 内存映射？
+# 驱动SD卡和复制U-boot
+* 介绍SD卡，如何驱动SD卡？
+* SD卡分区？
+* SD卡驱动编写？
+* 复制SD卡/boot分区下的u-boot.bin
+* 这里的u-boot.bin指的是不包含SPL的stage2部分的代码. 它会被SPL搬移到RAM的某个地址处开始运行. 
+# 模仿真实vexpress-A9板卡移植Linux系统
+* SD卡分区 /boot /kernel
+* SD卡中放入U-boot和linux系统相关文件
+* 方法一：到SD中装载linux
+* 开机BootLoader代码自动装载U-boot
+* 进入U-boot，指定bootarg，装载linux系统
+* 方法二：通过NFS网络下载，再装载：在u-boot中配置网络？
 
-* 讲解复制，堆栈操作，其中__image_copy_start定义在U-boot链接脚本U-boot.lds中，具体内容如下
+讨论：为什么需要移植？？不同板卡哪里会不同，需要改哪些文件才能适配？？（正点原子）《microC/OS》P14
+* CPU框架需要修改的内容？？？ CPU知识
 
-* 讲解链接脚本
-
-* 在启动涉及的汇编文件ctr0.S中可以看到，U-boot内存中的实际加载地址保存在gd->relocaddr变量中，实际存储在CPU的寄存器r0中，而gd->relocaddr这个地址是多少呢？这是根据RAM的大小灵活设置的（怎么设置的？？？），一般被加载在内存的高端地址，被引导启动的内核镜像加载在内存的低端地址
-* 面对实际加载地址（内存真实地址）和链接地址（虚拟地址）不一致的问题，需要重定位来解决
-* 重定位是什么？？？
-
-
-# qemu vexpress-A9 U-boot移植
-网络配置？
-# 树莓派演示移植U-boot和Linux
-uboot.bin文件？
-树莓派移植跟其他开发板移植有什么区别？
-sd卡怎么分区才有用？
-讨论：为什么需要移植？？不同板卡哪里会不同，需要改哪些文件才能适配？？（正点原子）
 # 参考文章
 [单片机程序烧录](https://blog.csdn.net/ZHOU_YONG915/article/details/122842967)
+
+接下来写UART驱动、LCD驱动、？计时器、键盘驱动
